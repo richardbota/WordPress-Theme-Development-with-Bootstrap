@@ -10,6 +10,9 @@
     <link rel="icon" href="assets/img/favicon.ico">
     <title>Bootstrap to WordPress</title>
 
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Font Awesome Icons -->
     <link href="assets/css/font-awesome/css/font-awesome.min.css"
         rel="stylesheet">
@@ -27,7 +30,34 @@
 <body>
 
     <!-- Header -->
-    <header>
+    <header class="site-header" role="banner">
+
+        <!-- NAVBAR -->
+        <div class="navbar-wrapper">
+
+            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/"><img src="assets/img/logo.png" alt="Bootstrap to Wordpress"></a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="/">Home</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="resources.html">Resources</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
     </header>
 
