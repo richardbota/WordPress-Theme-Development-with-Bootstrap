@@ -17,6 +17,9 @@
     <link href="assets/css/font-awesome/css/font-awesome.min.css"
         rel="stylesheet">
 
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
 
