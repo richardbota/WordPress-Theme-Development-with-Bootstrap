@@ -14,6 +14,10 @@
     <link href="assets/css/font-awesome/css/font-awesome.min.css"
         rel="stylesheet">
 
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+
+
     <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -105,6 +109,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="assets/js/jquery-2.1.4.min.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <!-- Adobe Typekit Fonts -->
+    <script src="https://use.typekit.net/omd6jec.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 </body>
 </html>
