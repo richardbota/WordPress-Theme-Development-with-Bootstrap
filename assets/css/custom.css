@@ -171,7 +171,15 @@ section h3 {
     background: #3e4249;
     color: white;
     text-align: center;
+    padding-top: 80px; /* pidin ise lisama extra */
 }
+
+#project-features {
+    text-align: center;
+    padding-top: 80px; /* pidin ise lisama extra */
+}
+
+/* === CUSTOM ICON SPRITES === */
 
 i.ci {
     display: inline-block;
@@ -186,3 +194,4 @@ i.ci {
 .ci.ci-community	{ background-position: -120px 0; }
 .ci.ci-instructor	{ background-position: -160px 0; }
 .ci.ci-device		{ background-position: -200px 0; }
+
