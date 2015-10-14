@@ -219,10 +219,12 @@ section h3 {
 
 #instructor {
     background: white url('../img/brad-elvis.png') 90% -10px no-repeat;
+    padding-top: 80px;
 }
 
 #instructor h2 {
-    background: 0, 0, 20px;
+    background: 20px;
+    margin: 0px;
 }
 
 #instructor .num {
@@ -242,7 +244,16 @@ section h3 {
     text-rendering: optimizelegibility;
 }
 
+#instructor .num .num-content {
+    display: table-cell;
+    vertical-align: middle;
+}
 
+#instructor .num span {
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+}
 
 /* === CUSTOM ICON SPRITES === */
 
