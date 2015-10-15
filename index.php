@@ -52,7 +52,7 @@
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
                             <li class="active"><a href="/">Home</a></li>
-                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="blog.php">Blog</a></li>
                             <li><a href="resources.html">Resources</a></li>
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
