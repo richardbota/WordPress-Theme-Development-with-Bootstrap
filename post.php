@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="assets/img/favicon.ico">
-    <title>Bootstrap to WordPress</title>
+    <title>Blog Post | Bootstrap to WordPress</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -64,83 +64,45 @@
 
 </header>
 
-<section class="feature-image feature-image-default-alt" data-type="background" data-speed="2">
-    <h1 class="page-title">Blog</h1>
-</section>
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row" id="primary">
 
-<!-- Blog Content -->
-<div class="container">
-    <div class="row" id="primary">
+            <div id="content" class="col-sm-8">
 
-        <main id="content" class="col-sm-8" role="main">
+                <article class="post">
+                    <header>
+                        <h1>Blog title here</h1>
+                        <div class="post-details">
+                            <i class="fa fa-user"></i> Brad Hussey
+                            <i class="fa fa-clock-o"></i> <time>August 7, 2014</time>
+                            <i class="fa fa-folder"></i> <a href="">Tutorials</a>, <a href="">Coding</a>
+                            <i class="fa fa-tags"></i> Tagged <a href="">wordpress</a>, <a href="">premium</a>, <a href="">another tag</a>, <a href="">yadda yadaa</a>
 
-            <article class="post">
-                <header>
-                    <h3><a href="post.php">Blog title here</a></h3>
-                    <div class="post-details">
-                        <i class="fa fa-user"></i> Brad Hussey
-                        <i class="fa fa-clock-o"></i> <time>August 7, 2014</time>
-                        <i class="fa fa-folder"></i> <a href="">Tutorials</a>, <a href="">Coding</a>
-                        <i class="fa fa-tags"></i> Tagged <a href="">wordpress</a>, <a href="">premium</a>, <a href="">another tag</a>, <a href="">yadda yadaa</a>
+                            <div class="post-comments-badge">
+                                <a href=""><i class="fa fa-comments"></i> 168</a>
+                            </div><!-- post-comments-badge -->
+                        </div><!-- post-details -->
+                    </header>
+                    <div class="post-image">
+                        <img src="assets/img/hero-bg.jpg">
+                    </div><!-- post-image -->
+                    <div class="post-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-                        <div class="post-comments-badge">
-                            <a href=""><i class="fa fa-comments"></i> 168</a>
-                        </div><!-- post-comments-badge -->
-                    </div><!-- post-details -->
-                </header>
-                <div class="post-image">
-                    <img src="assets/img/hero-bg.jpg">
-                </div><!-- post-image -->
-                <div class="post-excerpt">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt... <a href="post.php">continue reading &raquo;</a></p>
-                </div><!-- post-excerpt -->
-            </article><!-- post -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-            <article class="post">
-                <header>
-                    <h3><a href="">A different blog post, with a longer title</a></h3>
-                    <div class="post-details">
-                        <i class="fa fa-user"></i> Brad Hussey
-                        <i class="fa fa-clock-o"></i> <time>August 7, 2014</time>
-                        <i class="fa fa-folder"></i> <a href="">Tutorials</a>, <a href="">Coding</a>
-                        <i class="fa fa-tags"></i> Tagged <a href="">wordpress</a>, <a href="">premium</a>, <a href="">another tag</a>, <a href="">yadda yadaa</a>
+                        <h3>Subtitle</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-                        <div class="post-comments-badge">
-                            <a href=""><i class="fa fa-comments"></i> 168</a>
-                        </div><!-- post-comments-badge -->
-                    </div><!-- post-details -->
-                </header>
-                <div class="post-image">
-                    <img src="assets/img/hero-bg.jpg">
-                </div><!-- post-image -->
-                <div class="post-excerpt">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt... <a href="post.php">continue reading &raquo;</a></p>
-                </div><!-- post-excerpt -->
-            </article><!-- post -->
+                        <h4>Another Subtitle</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-            <article class="post">
-                <header>
-                    <h3><a href="">Short n' sweet</a></h3>
-                    <div class="post-details">
-                        <i class="fa fa-user"></i> Brad Hussey
-                        <i class="fa fa-clock-o"></i> <time>August 7, 2014</time>
-                        <i class="fa fa-folder"></i> <a href="">Tutorials</a>, <a href="">Coding</a>
-                        <i class="fa fa-tags"></i> Tagged <a href="">wordpress</a>, <a href="">premium</a>, <a href="">another tag</a>, <a href="">yadda yadaa</a>
+                    </div><!-- post body -->
+                </article><!-- post -->
 
-                        <div class="post-comments-badge">
-                            <a href=""><i class="fa fa-comments"></i> 168</a>
-                        </div><!-- post-comments-badge -->
-                    </div><!-- post-details -->
-                </header>
-                <div class="post-image">
-                    <img src="assets/img/hero-bg.jpg">
-                </div><!-- post-image -->
-                <div class="post-excerpt">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt... <a href="post.php">continue reading &raquo;</a></p>
-                </div><!-- post-excerpt -->
-            </article><!-- post -->
 
-        </main><!-- content -->
+            </div><!-- col-->
 
         <!-- SIDEBAR
 			================================================== -->
