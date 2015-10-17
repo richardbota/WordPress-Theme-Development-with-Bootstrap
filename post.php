@@ -101,6 +101,80 @@
                     </div><!-- post body -->
                 </article><!-- post -->
 
+                <div id="comments">
+                    <div class="comments-wrap">
+                        <h3>4 comments</h3>
+
+                        <!-- These comments will have an image and more information when we use WordPress -->
+
+                        <ol class="comments-list">
+                            <li class="comment">
+                                <h4>John Smith <small>&bull; Aug 12, 2014</small></h4>
+                                <div class="comment-body">
+                                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis.</p>
+
+                                    <p>Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                                </div><!-- comment-body -->
+
+                                <ol class="children">
+                                    <li class="comment">
+                                        <h4>Chris McCooper <small>&bull; Aug 12, 2014</small></h4>
+                                        <div class="comment-body">
+                                            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis.</p>
+                                        </div><!-- comment-body -->
+
+                                        <ol class="children">
+                                            <li class="comment">
+                                                <h4>Johnny Dee <small>&bull; Aug 12, 2014</small></h4>
+                                                <div class="comment-body">
+                                                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis.</p>
+                                                </div><!-- comment-body -->
+                                            </li>
+                                        </ol>
+
+                                    </li>
+                                </ol>
+                            </li>
+
+                            <li class="comment">
+                                <h4>Jane Smith <small>&bull; Aug 9, 2014</small></h4>
+                                <div class="comment-body">
+                                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis.</p>
+                                </div><!-- comment-body -->
+                            </li>
+                        </ol><!-- comments-list -->
+
+                        <div id="leave-comment">
+                            <h3>Leave a comment</h3>
+
+                            <form>
+                                <p>Your email address will not be published. Required fields are marked <span class="required">*</span></p>
+                                <p class="comment-form-author">
+                                    <label>Name *</label>
+                                    <input id="author" type="text">
+                                </p>
+                                <p class="comment-form-email">
+                                    <label for="email">Email *</label>
+                                    <input id="email"  type="email">
+                                </p>
+                                <p class="comment-form-url">
+                                    <label for="url">Website</label>
+                                    <input id="url"  type="url">
+                                </p>
+                                <p class="comment-form-comment">
+                                    <label for="comment">Comment</label>
+                                    <textarea id="comment" cols="45" rows="8"></textarea>
+                                </p>
+                                <p class="form-submit">
+                                    <input name="submit" type="submit" id="submit" value="Post Comment">
+                                </p>
+                            </form>
+
+                        </div><!-- leave-comment -->
+
+                    </div><!-- comments -->
+                </div><!-- comments-wrap -->
+            </div><!-- content -->
 
             </div><!-- col-->
 
