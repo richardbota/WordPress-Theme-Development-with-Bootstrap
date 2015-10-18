@@ -55,7 +55,7 @@
                         <li><a href="/">Home</a></li>
                         <li><a href="blog.php">Blog</a></li>
                         <li class="active"><a href="resources.php">Resources</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
             </div>
