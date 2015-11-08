@@ -14,7 +14,7 @@ $optin_text             = get_post_meta( 8, 'optin_text', true);
 $optin_button_text      = get_post_meta( 8, 'optin_button_text', true);
 
 // Advanced Custom Field
-$income_feature_image   = get_field('income_feauture_image');
+$income_feature_image   = get_field('income_feature_image');
 $income_section_title   = get_field('income_section_title');
 $income_section_desc    = get_field('income_section_description');
 $reason_1_title         = get_field('reason_1_title');
@@ -92,7 +92,7 @@ get_header(); ?>
             <div class="section-header">
 
                 <!-- If user uploaded an image -->
-                <?php if( !empty($income_feature_image)) : ?>
+                <?php if( !empty($income_feature_image) ) : ?>
 
                     <img src="<?php echo $income_feature_image['url']; ?>" alt="<?php echo $income_feature_image['alt']; ?>">
 
