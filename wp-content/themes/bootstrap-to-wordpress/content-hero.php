@@ -2,11 +2,11 @@
 
 // Custom Fields
 
-$prelaunch_price        = get_post_meta( 8, 'prelaunch_price', true);
-$launch_price           = get_post_meta( 8, 'launch_price', true);
-$final_price            = get_post_meta( 8, 'final_price', true);
-$course_url             = get_post_meta( 8, 'course_url', true);
-$button_text            = get_post_meta( 8, 'button_text', true);
+$prelaunch_price = get_post_meta(8, 'prelaunch_price', true);
+$launch_price = get_post_meta(8, 'launch_price', true);
+$final_price = get_post_meta(8, 'final_price', true);
+$course_url = get_post_meta(8, 'course_url', true);
+$button_text = get_post_meta(8, 'button_text', true);
 
 ?>
 
