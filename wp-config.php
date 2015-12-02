@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'khk_WordPress_Theme_Development_with_Bootstrap_vs15_richardbota');
+define('DB_NAME', 'khk_wordPress_theme_development_with_bootstrap_vs15_richardbota');
 
 /** MySQL database username */
 define('DB_USER', 'khk');
